@@ -1,5 +1,6 @@
+import React from "react";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import HeroSection from "./components/HeroSection/HeroSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import MissionVision from "./components/MissionVision/MissionVision";

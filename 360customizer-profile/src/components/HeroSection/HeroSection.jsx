@@ -1,3 +1,4 @@
+import React from "react";
 import { useRef, useEffect } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { Canvas } from "@react-three/fiber";

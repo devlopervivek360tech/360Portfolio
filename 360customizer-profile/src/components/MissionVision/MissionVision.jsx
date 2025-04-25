@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import "./MissionVision.css";
@@ -47,7 +48,6 @@ function MissionVision({ setActiveSection }) {
         <div className="cards-container">
           {cards.map((card, index) => (
             <motion.div
-              key={index}
               key={`card-${index}`}
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}

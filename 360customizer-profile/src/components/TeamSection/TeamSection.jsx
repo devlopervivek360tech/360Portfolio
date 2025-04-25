@@ -1,3 +1,4 @@
+import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import "./TeamSection.css";
@@ -87,7 +88,7 @@ function TeamSection({ setActiveSection }) {
         >
           {teamEvents.map((event, index) => (
             <motion.div
-              key={index}
+              key={`member-${index}`}
               className="gallery-item"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
