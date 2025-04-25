@@ -17,7 +17,7 @@
 }
 
 .section-title span {
-  color: #ff6b6b;
+  color: #0068ff;
 }
 
 .section-subtitle {
@@ -52,7 +52,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 1rem;
-  border: 3px solid #ff6b6b;
+  border: 3px solid #0068ff;
 }
 
 .member-image img {
@@ -79,7 +79,7 @@
 }
 
 .gallery-title span {
-  color: #ff6b6b;
+  color: #0068ff;
 }
 
 .team-gallery {

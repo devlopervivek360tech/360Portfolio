@@ -24,7 +24,7 @@
 }
 
 .section-title span {
-  color: #ff6b6b;
+  color: #0068ff;
 }
 
 .section-subtitle {
@@ -65,7 +65,7 @@
 
 .floating-box {
   position: absolute;
-  background: #ff6b6b;
+  background: #0068ff;
   border-radius: 5px;
   z-index: 1;
 }

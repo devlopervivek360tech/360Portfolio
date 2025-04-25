@@ -1,5 +1,5 @@
 .footer {
-  background: #333;
+  background: #0068ff;
   color: white;
   padding: 3rem 0 1rem;
 }
@@ -23,12 +23,12 @@
   margin-bottom: 1rem;
 }
 
-.footer-logo h2 span {
-  color: #ff6b6b;
-}
+/* .footer-logo h2 span {
+  color: #0068ff;
+} */
 
 .footer-logo p {
-  color: #aaa;
+  color: #ffffff;
   max-width: 300px;
   line-height: 1.6;
 }
@@ -54,13 +54,13 @@
 }
 
 .link-group a {
-  color: #aaa;
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .link-group a:hover {
-  color: #ff6b6b;
+  color: #0068ff;
 }
 
 .footer-bottom {
@@ -68,7 +68,7 @@
   padding-top: 1.5rem;
   display: flex;
   justify-content: space-between;
-  color: #aaa;
+  color: white;
   font-size: 0.9rem;
 }
 

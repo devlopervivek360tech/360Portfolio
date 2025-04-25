@@ -42,8 +42,7 @@ img {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -57,7 +56,7 @@ img {
 }
 
 .primary-btn {
-  background: #ff6b6b;
+  background: #0068ff;
   color: white;
   border: none;
 }
@@ -69,7 +68,7 @@ img {
 }
 
 .primary-btn:hover {
-  background: #ff5252;
+  background: #0068ff;
   transform: translateY(-3px);
 }
 
